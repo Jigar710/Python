@@ -1,6 +1,7 @@
 import cv2
 
-# Viola & Jones method
+'''This is Face detection using Viola & Jones method
+Dataset that is used here is haarcascade_frontalface_default '''
 
 facecascade = cv2.CascadeClassifier("Resources/haarcascade_frontalface_default.xml")
 cap = cv2.VideoCapture(0)
